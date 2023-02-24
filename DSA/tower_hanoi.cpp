@@ -4,9 +4,9 @@ using namespace std;
 void tower(int n, char A, char B, char C) {
     if (n == 0) return;
 
-    tower(n-1, A, C, B);                 // A -> B
+    tower(n-1, A, C, B);                          // A -> B
     cout << "Move " << A << " to " << C << endl;  // A -> C
-    tower(n-1, B, A, C);                 // B -> C
+    tower(n-1, B, A, C);                          // B -> C
 }
 
 int main() {
