@@ -2,7 +2,7 @@
 using namespace std;
 
 void prime_factor(int n) {
-    vector<int> spf(100, 0);
+    vector<int> spf(n, 0);
     for (int i = 2; i <= n; ++i) {
         spf[i] = i;
     }
