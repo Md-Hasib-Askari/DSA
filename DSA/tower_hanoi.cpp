@@ -10,5 +10,5 @@ void tower(int n, char A, char B, char C) {
 }
 
 int main() {
-    tower(2, 'A', 'B', 'C');
+    tower(5, 'A', 'B', 'C');
 }
